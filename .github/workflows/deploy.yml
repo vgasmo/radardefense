@@ -1,5 +1,4 @@
 name: Deploy Vite app to GitHub Pages
-
 on:
   push:
     branches: [ main ]
@@ -29,3 +28,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
